@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 #include "fizz.hpp"
 
 int main(int argc, char **argv) {

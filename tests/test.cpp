@@ -1,7 +1,9 @@
-#include "fizz.hpp"
+#include <gtest/gtest.h>
+
 #include <iostream>
 #include <string>
-#include <gtest/gtest.h>
+
+#include "fizz.hpp"
 
 TEST(testCase, test1) {
     EXPECT_EQ(fizz(1), "1 ");
